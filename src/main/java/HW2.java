@@ -12,7 +12,7 @@ public class HW2 {
         someTask(3, "Goodbuy, World!");
         System.out.println(isLeap(2021));
         System.out.println(isLeap(2004));
-        System.out.println(isLeap( 1244));
+        System.out.println(isLeap(1244));
     }
     static boolean task1(int a, int b) {
         int sum = a + b;
