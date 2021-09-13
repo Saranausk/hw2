@@ -1,6 +1,11 @@
+/**
+ * Java 1. HomeWork 2
+ *
+ * @author Sarana Uskeeva
+ * @version 13 Sep 2021
+ */
 public class HW2 {
     public static void main(String[] args) {
-        System.out.println(task1(10,10));
         number(5);
         someTask(8, "Hello, world!");
         System.out.println(isLeap(2021));
@@ -10,7 +15,6 @@ public class HW2 {
         return sum >= 10 && sum <= 20;
     }
     static void number(int x) {
-
         if (x >= 0) {
             System.out.println(x + " положительное число");
         } else {
@@ -25,7 +29,7 @@ public class HW2 {
             System.out.println(text);
         }
     }
-    static boolean isLeap( int year ){
+    static boolean isLeap(int year) {
         if(year % 100 == 0 || year % 400 == 0) return true;
         return year % 4 == 0;
     }
