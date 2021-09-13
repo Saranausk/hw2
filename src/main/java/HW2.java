@@ -6,20 +6,20 @@
  */
 public class HW2 {
     public static void main(String[] args) {
-        number(5);
+        number(-5);
+        number(3);
         someTask(8, "Hello, world!");
+        someTask(3, "Goodbuy, World!");
         System.out.println(isLeap(2021));
+        System.out.println(isLeap(2004));
+        System.out.println(isLeap( 1244));
     }
     static boolean task1(int a, int b) {
         int sum = a + b;
         return sum >= 10 && sum <= 20;
     }
     static void number(int x) {
-        if (x >= 0) {
-            System.out.println(x + " положительное число");
-        } else {
-            System.out.println(x + " отрицательное число");
-        }
+        System.out.println(x >= 0? x + " положительное число" : x + " отрицательное число");
     }
     static boolean isPositive(int num) {
         return num < 0;
